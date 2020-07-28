@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "upgradesmod",
+  "version": "${version}",
+  "name": "UPGRADES!",
+  "description": "upgrades for your tools and weapons!",
+  "authors": [
+    "LonelyCDDISK"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/upgradesmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.CDGDVD.UPGRADES.UPGRADES_IC"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "upgradesmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
