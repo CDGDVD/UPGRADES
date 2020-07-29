@@ -21,7 +21,7 @@ public class UPGRADES_IC implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("upgradesmod", "data/upgradesmod/recipes/emerald_sword.json"), new SwordBase(new ToolMaterialDiamond()));
+        Registry.register(Registry.ITEM, new Identifier("upgradesmod", "emerald_sword"), new SwordBase(new ToolMaterialDiamond()));
         log(Level.INFO, "Initializing");
         //TODO: Initializer
     }
